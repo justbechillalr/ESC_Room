@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+}
+
+.Bacground_image{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+button{
+    position: absolute;
+    top:39%;
+    left: 57.5%;
+    height: 11.3vh;
+    width: 37vh;
+    background-color: black;
+    color: white;
+}
+.keyhole{
+    margin-right: 50%;
+}
