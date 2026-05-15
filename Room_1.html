@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Room1</title>
     <link rel="stylesheet" href="style.css">
+  
 </head>
+
 <body>
     <div class="Bacground_image">
-        <img src="Room_1.png" alt="">
+        <img src="assets/Room_2nk.png" class="room1-no-key" alt="room">
+        <div class="key1 hidden" id="key1-inventory">
+            <img src="assets/Key.png" class="Inventor-key">
+        </div>
+       <button class="room2button"> <a class="room2" id ="room2" href="#">Room 2</a></button>
+
     </div>
+    <div class="key1-box" id="key1-click">
+        <img src="assets/Key.png" class="key1-grab" onclick="toggleKeyRoom1()" alt="key1click">
+    </div>
+
 </body>
+  <script src="javascript.js"></script>
 </html>
