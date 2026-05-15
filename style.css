@@ -1,3 +1,5 @@
+/* global */
+
 body{
     background-color: gray;
 }
@@ -7,15 +9,60 @@ body{
     justify-content: center;
     margin-top: 10vh;
 }
+
+/*Start-Menu */
 button{
     position: absolute;
-    top:39%;
-    left: 57.5%;
+    top:31%;
+    left: 55.7%;
     height: 11.3vh;
-    width: 37vh;
+    width: 30vh;
     background-color: black;
-    color: white;
+    color: rgb(255, 0, 0);
+    font-size: 6vh;
 }
+/*start-menu */
 .keyhole{
     margin-right: 50%;
 }
+
+/*room1 */
+.hidden{
+display: none;
+}
+.key1-box{
+    margin-left: 62.2%;
+    margin-top: -40vh;
+    height: 20vh;
+}
+.key1-grab{
+    height: 10vh;
+    margin-left: -1vh;
+    margin-top: -50vh;
+    
+}
+.room2button{
+    width:20vh;
+    height: 6.9vh;
+    margin-left:27vh;
+    margin-top: -19.3vh;
+    
+}
+.room2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+.Inventor-key{
+    position: absolute;
+    height: 10vh;
+    top: -0.1vh;
+    left: 15pxvh;
+}
+/*room1*/
+
+
+/*room2*/
+
+/*room2*/
+
